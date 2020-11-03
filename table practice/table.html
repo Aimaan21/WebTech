@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML - Table</title>
+</head>
+
+<body>
+    
+    <table border="1" align="center" width = 50%>
+        
+        <tr>
+            <!-- taking space of 3 columns -->
+            <th colspan="3" height="70px"><h1>Education</h1></th>
+            
+        </tr>
+        
+        <tr>
+            
+            <th>Degree</th>
+            <th width="250px">Result</th>
+            <th>Year</th>
+            
+            
+        </tr>
+        
+        <tr align="center">
+            
+            <td>P.S.C</td>
+            <!-- taking space of 2 rows -->
+            <td rowspan="2">1st division</td>
+            <td>2009</td>
+            
+            
+        </tr>
+        
+        <tr align="center">
+            
+            <td>J.S.C</td>
+            <td>2012</td>
+            
+            
+        </tr>
+        
+        <tr align="center">
+            
+            <td>S.S.C</td>
+            <td>5.00</td>
+            <td>2015</td>
+            
+            
+        </tr>
+        
+        <tr align="center">
+            
+            <td>H.S.C</td>
+            <td>4.86</td>
+            <td>2017</td>
+            
+            
+        </tr>
+        
+        
+        
+        
+    </table>
+    
+    
+    <u><h1 align="center">Form</h1></u>
+    
+    <!-- Form border and title -->
+    <fieldset style="width: 50%">
+        
+        <legend><b>Information</b></legend>
+        
+        <form method="" action="" align="center">
+        
+        Name: <input type="text" name="name" value=""><br><br>
+        Email: <input type="email" name="email" value=""><br><br>
+        Password: <input type="password" name="password" value=""><br> <br>
+        Date: <input type="date" name="date"> <br> <br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Sami"> Sami
+        
+        <br><br>
+        
+            <input type="checkbox" name="degree[]" value="SSC"> SSC
+            <input type="checkbox" name="degree[]" value="HSC"> HSC
+            <input type="checkbox" name="degree[]" value="Bsc"> Bsc
+            <input type="checkbox" name="degree[]" value="Msc"> Msc
+        
+        <input type="submit" name="submit" value="Submit">
+        
+        
+    </form>
+        
+    </fieldset>
+    
+</body>
+</html>
